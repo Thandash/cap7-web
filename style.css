@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #070101;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/header.jpg) repeat center;
+    background-size: cover;
+}
+
+.header {
+    height: 60vh !important;
+    font-size: larger;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    -webkit-text-stroke: 2px black;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: #f3eded;
+    padding: 0 100px;
+    -webkit-text-stroke: 1px rgb(8, 3, 3);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #7b0a8f;
+    color: #fff;
+    text-decoration: none;
+    background: #9d25b3;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    padding-bottom: 50px;
+    background-image: url(img/conv.jpg);
+    background-size: contain;
+}
+
+.ling {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(img/org.jpg);
+    background-size: cover;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 15rem;
+    width: 20rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+
+}
+.box-container .box audio{
+    padding-top: 20px;
+}
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.ejemplo {
+    padding-top: 50px;
+    background-image: url(img/netfix.jpg);
+    background-size: cover;
+}
+
+.conversacion {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.conversacion {
+    height: 60vh !important;
+    background-image: url(img/audifonos.jpg);
+    background-size: cover;
+}
+
+.anexos {
+    background-image: url(img/anexo.jpg);
+    background-size: cover;
+
+}
+
+.iframe {
+    padding-top: 10px;
+    background: url(img/costos.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 150vh;
+    }
+
+    .navbar {
+
+        display: grid;
+    }
+   
+    
+}
+.li {
+    font-size: small;
+}
